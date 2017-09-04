@@ -114,6 +114,14 @@ public class WidgetProvider extends AppWidgetProvider {
     }
 
     /**
+     * 当小部件从备份恢复时调用该方法
+     */
+    @Override
+    public void onRestored(Context context, int[] oldWidgetIds, int[] newWidgetIds) {
+        super.onRestored(context, oldWidgetIds, newWidgetIds);
+    }
+
+    /**
      * 每次窗口小部件被点击更新都调用一次该方法
      */
     @Override

@@ -1,8 +1,8 @@
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:minWidth="110dp"
-                    android:minHeight="110dp"
-                    android:previewImage="@mipmap/ic_launcher"
                     android:initialLayout="@layout/app_widget"
+                    android:minHeight="110dp"
+                    android:minWidth="110dp"
+                    android:previewImage="@mipmap/ic_launcher"
                     android:resizeMode="horizontal|vertical"
                     android:widgetCategory="home_screen|keyguard">
 
@@ -18,11 +18,11 @@
      -->
 
     <!--单元格个数   对应的设置大小 (dp)(minWidth / minHeight)-->
-        <!--1	        40dp-->
-        <!--2	        110dp-->
-        <!--3	        180dp-->
-        <!--4	        250dp-->
-        <!--…	        …-->
-        <!--n	        70 × n − 30-->
+    <!--1	        40dp-->
+    <!--2	        110dp-->
+    <!--3	        180dp-->
+    <!--4	        250dp-->
+    <!--…	        …-->
+    <!--n	        70 × n − 30-->
 
 </appwidget-provider>
