@@ -50,8 +50,10 @@ public class WidgetProvider extends AppWidgetProvider {
         int appID;
         // 迭代器，用于遍历所有保存的widget的id
         Iterator it = set.iterator();
+
         // 要显示的那个数字，每更新一次 + 1
-        mIndex++;
+        mIndex++; // TODO:可以在这里做更多的逻辑操作，比如：数据处理、网络请求等。然后去显示数据
+
         while (it.hasNext()) {
             appID = ((Integer) it.next()).intValue();
 
